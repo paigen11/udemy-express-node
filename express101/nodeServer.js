@@ -22,7 +22,7 @@ const server = http.createServer((req, res) => {
     // 2. object for the mime-type
     res.writeHead(200, { 'content-type': 'text/html' });
     // res.write('');
-    const homePageHTML = fs.readFileSync('node.html');
+    const homePageHTML = fs.readFileSync('./node.html');
     // console.log(homePageHTML);
     res.write(homePageHTML);
     res.end();
@@ -46,4 +46,4 @@ const server = http.createServer((req, res) => {
 // createServer returns an object with a listen method
 // listen takes 1 arg
 // 1. port to listen for http traffic on
-server.listen(3000);
+server.listen(6001);

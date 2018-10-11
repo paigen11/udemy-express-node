@@ -1,0 +1,22 @@
+{
+  "name": "express101",
+  "version": "1.0.0",
+  "description": "",
+  "main": "expressServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paigen11/udemy-express-node.git"
+  },
+  "author": "Paige Niedringhaus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paigen11/udemy-express-node/issues"
+  },
+  "homepage": "https://github.com/paigen11/udemy-express-node#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
